@@ -1,6 +1,7 @@
 import os, struct
-from array import array
 from cvxopt.base import matrix
+from array import array
+
 
 
 def read(digits, dataset = "training", path = "."):
